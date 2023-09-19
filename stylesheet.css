@@ -58,7 +58,7 @@ ul {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background-image: linear-gradient(to bottom right, rgb(255, 0, 242), rgb(0, 183, 255));
+    background-image: linear-gradient(to bottom right, rgb(255, 0, 242), #0088ff);
 
   }
   
