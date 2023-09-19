@@ -1,0 +1,66 @@
+@font-face {
+    font-family: signika;
+    src: url("/static/fonts/signika.ttf");
+}
+
+html {
+    font-family: signika;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #0088ff;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #0066c0;
+  }
+
+  .div_content {
+      margin: 8px;
+  }
+  .div_paragraph {
+    margin: 8px;
+    padding: 8px;
+    border: #0088ff solid;
+    background-color: hsla(0, 0%, 18%, 0.8);
+    color: aliceblue;
+    font-family: signika;
+    width: 50%;
+
+  }
+  .div_image {
+    margin: 8px;
+    padding: 8px;
+    color: aliceblue;
+    font-family: signika;
+    width:50%
+
+  }
+
+  body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  footer {
+    margin-top: auto;
+    background-color: #0088ff;
+    color: aliceblue;
+  }
