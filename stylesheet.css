@@ -50,6 +50,7 @@ ul {
     color: aliceblue;
     font-family: signika;
     width:50%
+    height
 
   }
 
@@ -57,10 +58,13 @@ ul {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    background-image: linear-gradient(to bottom right, rgb(255, 0, 242), rgb(0, 183, 255));
+
   }
   
   footer {
     margin-top: auto;
     background-color: #0088ff;
     color: aliceblue;
+    padding: 8px;
   }
