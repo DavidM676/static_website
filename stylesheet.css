@@ -1,6 +1,6 @@
 @font-face {
     font-family: signika;
-    src: url("/static/fonts/signika.ttf");
+    src: url("/static/font/signika.ttf");
 }
 
 html {
@@ -33,15 +33,17 @@ ul {
 
   .div_content {
       margin: 8px;
+    
   }
   .div_paragraph {
     margin: 8px;
     padding: 8px;
-    border: #0088ff solid;
-    background-color: hsla(0, 0%, 18%, 0.8);
+    border: #141414 solid;
+    border-radius: 8px;
+    background-color: hsla(0, 0%, 18%, 0.65);
     color: aliceblue;
     font-family: signika;
-    width: 50%;
+    width: 100%;
 
   }
   .div_image {
@@ -49,8 +51,8 @@ ul {
     padding: 8px;
     color: aliceblue;
     font-family: signika;
-    width:50%
-    height
+    
+    
 
   }
 
@@ -58,8 +60,10 @@ ul {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background-image: linear-gradient(to bottom right, rgb(255, 0, 242), #0088ff);
+    /* background-image: linear-gradient(to bottom right, rgb(255, 0, 242), #0088ff); */ 
+    background-image: linear-gradient(#0088ff, #c0c0c0, #0088ff);
 
+    
   }
   
   footer {
