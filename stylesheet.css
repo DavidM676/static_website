@@ -79,5 +79,22 @@ ul {
     margin-top: auto;
     /* background-color: #0088ff; */
     color: aliceblue;
+    padding: 10px;
+  }
+
+
+  tr, td, th, table {
+    border: #202020 2px solid;
+    font-family: signika;
+    border-collapse: collapse;
+
     padding: 8px;
+  }
+  table {
+    margin: 0 auto;
+  }
+  th {
+    font-family:Impact;
+    font-weight: 100;
+    font-size: large;
   }
