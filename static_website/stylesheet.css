@@ -1,0 +1,105 @@
+@font-face {
+    font-family: signika;
+    font-weight:100;
+    src: url("/static/font/signika.ttf");
+}
+
+html {
+    font-family: signika;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /* background-color: #0088ff; */
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 7px 8px;
+    margin: 7px 8px;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  li a:hover {
+    /* background-color: #0066c0; */
+    box-shadow: inset 0px 0px 0px 2px #fff;
+
+    border-radius: 6px;
+  }
+
+
+  
+
+  .div_content {
+      margin: 8px;
+    
+  }
+  .div_paragraph {
+    margin: 8px;
+    padding: 8px;
+    border: #141414 solid;
+    border-radius: 8px;
+    background-color: hsla(0, 0%, 18%, 0.35);
+    color: rgb(255, 255, 255);
+    font-family: signika;
+    font-size: 20px;
+    width: 100%;
+
+  }
+  .div_image {
+    margin: 8px;
+    color: aliceblue;
+    font-family: signika;
+    
+    
+
+  }
+
+  img {
+    margin: 8px;
+  }
+
+  body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    /* background-image: linear-gradient(to bottom right, rgb(255, 0, 242), #0088ff); */ 
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    
+    
+  }
+  
+  footer {
+    margin-top: auto;
+    /* background-color: #0088ff; */
+    color: aliceblue;
+    padding: 10px;
+  }
+
+
+  tr, td, th, table {
+    border: #202020 2px solid;
+    font-family: signika;
+    border-collapse: collapse;
+
+    padding: 8px;
+  }
+  table {
+    margin: 0 auto;
+  }
+  th {
+    font-family:Impact;
+    font-weight: 100;
+    font-size: large;
+  }
