@@ -27,6 +27,7 @@ ul {
     padding: 7px 8px;
     margin: 7px 8px;
     text-decoration: none;
+    font-size: 18px;
   }
   
   li a:hover {
@@ -51,17 +52,21 @@ ul {
     background-color: hsla(0, 0%, 18%, 0.35);
     color: rgb(255, 255, 255);
     font-family: signika;
+    font-size: 20px;
     width: 100%;
 
   }
   .div_image {
     margin: 8px;
-    padding: 8px;
     color: aliceblue;
     font-family: signika;
     
     
 
+  }
+
+  img {
+    margin: 8px;
   }
 
   body {
